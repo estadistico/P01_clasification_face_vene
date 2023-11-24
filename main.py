@@ -6,7 +6,6 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Flatten, Dense
 import tensorflow as tf
-import numpy as np
 
 app = FastAPI()
 
