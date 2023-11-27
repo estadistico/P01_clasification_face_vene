@@ -13,7 +13,7 @@ templates = Jinja2Templates(directory="templates")
 
 # Cargar el modelo Keras
 #model = load_model("modelo_1_final.keras")
-#model = load_model("modelo_1_final2.h5")
+model = load_model("modelo_1_final2.h5")
 
 #model.load_weights("modelo_1_peso_final.h5")
 class_names = ['chavez', 'maduro', 'nofigura']  # reemplaza esto con tus nombres de clase reales
